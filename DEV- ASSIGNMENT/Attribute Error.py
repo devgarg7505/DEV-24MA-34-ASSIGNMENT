@@ -1,4 +1,4 @@
-class SampleClass:
+class DEV:
     def __init__(self):
         self.name = "Rigel"
 
@@ -9,7 +9,7 @@ def handle_attribute_error(obj, attribute):
         return f"Error: '{attribute}' attribute does not exist in {type(obj).__name__}."
 
 # Example usage
-obj = SampleClass()
+obj = DEV()
 
 print(handle_attribute_error(obj, "name"))
 print(handle_attribute_error(obj, "age"))
